@@ -1,10 +1,11 @@
 body {
-  background: html {
-    --s: 120px; /* control the size*/
-
-    --_g: radial-gradient(#0000 70%, #1a2030 71%);
-    background: var(--_g), var(--_g) calc(var(--s) / 2) calc(var(--s) / 2),
-      conic-gradient(#0f9177 25%, #fdebad 0 50%, #d34434 0 75%, #b5d999 0);
-    background-size: var(--s) var(--s);
-  }
+  background: radial-gradient(
+    263px at 100.2% 3%,
+    rgb(12, 85, 141) 31.1%,
+    rgb(205, 181, 93) 36.4%,
+    rgb(244, 102, 90) 50.9%,
+    rgb(199, 206, 187) 60.7%,
+    rgb(249, 140, 69) 72.5%,
+    rgb(12, 73, 116) 72.6%
+  );
 }
