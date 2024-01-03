@@ -54,6 +54,9 @@ body {
   font-family: "Nunito Sans", sans-serif;
   font-family: "Concert One", sans-serif;
 }
+.color-vibes {
+  color: #b6cc66;
+}
 h1 {
   font-size: 55px;
   font-weight: lighter;
