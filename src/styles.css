@@ -118,6 +118,7 @@ h2 {
 }
 .weather-app-temperature {
   display: flex;
+  margin-right: 20px;
 }
 .weather-app-number {
   font-size: 90px;
