@@ -125,8 +125,8 @@ h2 {
   font-weight: lighter;
 }
 .weather-app-icon {
-  font-size: 55px;
-  margin-top: 25px;
+  width: 100px;
+  height: 100px;
 }
 .weather-app-unit {
   font-size: 35px;
