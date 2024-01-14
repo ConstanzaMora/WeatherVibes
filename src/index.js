@@ -1,5 +1,8 @@
 function refreshWeather(response) {
-  console.log(response.data.temperature.current);
+  let temperatureElement = document.querySelector("#current-temperature");
+
+  let temperature = response.data.temperature.current;
+  temperatureElement.innerHTML = Math.round(temperature);
 }
 
 function searchCity(city) {
@@ -19,3 +22,5 @@ function handleSearchSubmit(event) {
 
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
+
+searchCity("Berlin");
