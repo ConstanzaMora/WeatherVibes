@@ -14,10 +14,6 @@ function refreshWeather(response) {
 
   console.log(response.data);
 
-  iconElement.innerHTML = `
-    <img src="${response.data.condition.icon_url}"
-      class="weather-app-icon"
-    />`;
   cityElement.innerHTML = response.data.city;
   timeElement.innerHTML = formatDate(date);
   descriptionElement.innerHTML = response.data.condition.description;
@@ -25,6 +21,10 @@ function refreshWeather(response) {
   temperatureElement.innerHTML = Math.round(temperature);
   windElement.innerHTML = response.data.wind.speed;
   sensationElement.innerHTML = Math.round(sensation);
+  iconElement.innerHTML = `
+    <img src="${response.data.condition.icon_url}"
+      class="weather-app-icon"
+    />`;
 }
 
 function formatDate(date) {
